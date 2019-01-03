@@ -23,8 +23,8 @@ class Header extends React.Component {
   }
   render() {
     return (
-      <div className="header" >
-        TODO List(ECMA 2015)
+      <div className="header">
+        TODO List - ReactJS
       </div>
     )
   }
