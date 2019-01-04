@@ -57,7 +57,7 @@ class Container extends React.Component {
     }
   }
 
-  handleRemove = (uid) => {
+  handleRemove(uid) {
     this.setState((prevState) => {
       return {
         list: prevState.list.filter((record) => {

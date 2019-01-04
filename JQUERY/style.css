@@ -1,0 +1,134 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+.margin-t-b {
+  margin: 10px 0;
+}
+
+h3 {
+  margin: 5px
+}
+
+.container {
+  padding: 15px 15px 0px 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  height: calc(100% - 80px);
+}
+
+#todo-input,
+.addBtn {
+  padding: 10px 0
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the list items */
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+
+ul li:hover {
+  background: #ddd;
+}
+
+/* Style the close button */
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Style the header */
+
+.header {
+  background-color: #5F5F5F;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 0 1px 6px 0 #5F5F5F;
+  font-weight: 700;
+}
+
+.form-wrapper {
+  padding: 20px;
+  box-shadow: 0 1px 0px 0 #5F5F5F;
+}
+
+#todo-input {
+  margin: 0;
+  width: 60%;
+  float: left;
+  font-size: 16px;
+  outline: none;
+}
+
+.form-wrapper>.addBtn {
+  padding: 12px;
+  width: 25%;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  float: left;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
