@@ -30,7 +30,7 @@ function arrowPerson() {
   this.age = 0;
 
   setInterval(() => {
-    this.age++; // |this| properly refers to the Person object
+    this.age++;
   }, 1000);
 }
 
@@ -57,7 +57,7 @@ const [x, y, z] = points;
 
 console.log(x, y, z);
 //////////////////////////////////////////////////////////////////////
-3. Template Literals
+// 3. Template Literals
 //ES5
 var name = 'Tiger';
 var age = 13;
