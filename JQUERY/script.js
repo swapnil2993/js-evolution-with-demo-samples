@@ -13,7 +13,6 @@ function toggleEmptyState() {
   }
 }
 
-// Create a new list item when clicking on the "Add" button
 function newItem() {
   var newIter = $("li").length + 1;
   var inputValue = $("#todo-input").val();
