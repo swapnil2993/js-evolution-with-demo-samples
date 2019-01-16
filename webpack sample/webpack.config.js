@@ -5,5 +5,10 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist')
+  },
+  module: {
+    noParse: /node_modules\/lodash\/lodash\.js/,
   }
 };
+
+// npx webpack --config webpack.config.js
