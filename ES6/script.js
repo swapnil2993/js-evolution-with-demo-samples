@@ -11,7 +11,7 @@ class TodoList {
     this.input = this.form.querySelector('#todo-input');
     this.help = root.querySelector('.help');
     this.ul = root.querySelector('ul');
-    // Lookup object containing the uid as key and li element as object
+    // Lookup object containing the uid as key and li element as object like VDOM
     this.items = {}
 
     // event handlers
