@@ -2,6 +2,7 @@ class TodoList {
   constructor(root) {
     // Local state management object
     this.state = [];
+    // [{1:'Bring Milk'},{2:'Bring Bread'}]
 
     // UI variables
     this.root = root;
@@ -36,8 +37,8 @@ class TodoList {
   }
 
   addItem(item) {
-    const id = this.state.length + 1;
     // Updating the local state 
+    const id = this.state.length + 1;
     this.state = this.state.concat({ item, id })
 
     // UI logic
