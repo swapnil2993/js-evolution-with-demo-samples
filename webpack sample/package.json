@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.11",
+    "lodash": "3.10",
     "new-lodash": "npm:lodash"
   }
 }
